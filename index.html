@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_19b18e815aad5c2c2fb3d7d47041c8c4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_19b18e815aad5c2c2fb3d7d47041c8c4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_19b18e815aad5c2c2fb3d7d47041c8c4 = L.map(
+                "map_19b18e815aad5c2c2fb3d7d47041c8c4",
+                {
+                    center: [-32.5, -64.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4379a9b04f2519f33972cd6f54af5eb6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4379a9b04f2519f33972cd6f54af5eb6.addTo(map_19b18e815aad5c2c2fb3d7d47041c8c4);
+        
+    
+            var marker_64ab5bad91e8829040beb76babcaa624 = L.marker(
+                [-32.5333, -64.5167],
+                {
+}
+            ).addTo(map_19b18e815aad5c2c2fb3d7d47041c8c4);
+        
+    
+        var popup_0d99c21410ec907c8036df191a8f66a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a1c494e14fdffc1ba49f0ae62b1f6db = $(`<div id="html_2a1c494e14fdffc1ba49f0ae62b1f6db" style="width: 100.0%; height: 100.0%;">Río 3°</div>`)[0];
+                popup_0d99c21410ec907c8036df191a8f66a2.setContent(html_2a1c494e14fdffc1ba49f0ae62b1f6db);
+            
+        
+
+        marker_64ab5bad91e8829040beb76babcaa624.bindPopup(popup_0d99c21410ec907c8036df191a8f66a2)
+        ;
+
+        
+    
+    
+            var marker_d3476fe243b55957bc695f512b6732b6 = L.marker(
+                [-32.55, -64.5],
+                {
+}
+            ).addTo(map_19b18e815aad5c2c2fb3d7d47041c8c4);
+        
+    
+        var popup_3235a79f9d1856b7ae3d8496f6831cef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddd8e5dfe9078272a7280cd26de6a0ea = $(`<div id="html_ddd8e5dfe9078272a7280cd26de6a0ea" style="width: 100.0%; height: 100.0%;">Santa Rosa de Calamuchita</div>`)[0];
+                popup_3235a79f9d1856b7ae3d8496f6831cef.setContent(html_ddd8e5dfe9078272a7280cd26de6a0ea);
+            
+        
+
+        marker_d3476fe243b55957bc695f512b6732b6.bindPopup(popup_3235a79f9d1856b7ae3d8496f6831cef)
+        ;
+
+        
+    
+    
+            var marker_b679f7876bf89964628a7aeb830287a3 = L.marker(
+                [-32.58, -64.4833],
+                {
+}
+            ).addTo(map_19b18e815aad5c2c2fb3d7d47041c8c4);
+        
+    
+        var popup_aa121e001b24bb141c6bbcdbd813719a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9a00001859eb2fc63e5d335d6d67404 = $(`<div id="html_a9a00001859eb2fc63e5d335d6d67404" style="width: 100.0%; height: 100.0%;">Villa Gral. Belgrano</div>`)[0];
+                popup_aa121e001b24bb141c6bbcdbd813719a.setContent(html_a9a00001859eb2fc63e5d335d6d67404);
+            
+        
+
+        marker_b679f7876bf89964628a7aeb830287a3.bindPopup(popup_aa121e001b24bb141c6bbcdbd813719a)
+        ;
+
+        
+    
+    
+            var marker_2aea67a124d309b587b5a0c0c6f0937e = L.marker(
+                [-32.6, -64.4667],
+                {
+}
+            ).addTo(map_19b18e815aad5c2c2fb3d7d47041c8c4);
+        
+    
+        var popup_dc66cb3d51077c9c3c1d15bd93fabb27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d7e436401af14e75025b983bcc4191a = $(`<div id="html_2d7e436401af14e75025b983bcc4191a" style="width: 100.0%; height: 100.0%;">San Agustín</div>`)[0];
+                popup_dc66cb3d51077c9c3c1d15bd93fabb27.setContent(html_2d7e436401af14e75025b983bcc4191a);
+            
+        
+
+        marker_2aea67a124d309b587b5a0c0c6f0937e.bindPopup(popup_dc66cb3d51077c9c3c1d15bd93fabb27)
+        ;
+
+        
+    
+    
+            var marker_b51165e7b5fd7b006b4d4219b3ee0774 = L.marker(
+                [-32.6167, -64.45],
+                {
+}
+            ).addTo(map_19b18e815aad5c2c2fb3d7d47041c8c4);
+        
+    
+        var popup_aff6e15cc5a75073b20222766b3701eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdce1c2e386473b92d38ed1b95f7281e = $(`<div id="html_fdce1c2e386473b92d38ed1b95f7281e" style="width: 100.0%; height: 100.0%;">Embalse Alma Fuerte</div>`)[0];
+                popup_aff6e15cc5a75073b20222766b3701eb.setContent(html_fdce1c2e386473b92d38ed1b95f7281e);
+            
+        
+
+        marker_b51165e7b5fd7b006b4d4219b3ee0774.bindPopup(popup_aff6e15cc5a75073b20222766b3701eb)
+        ;
+
+        
+    
+</script>
+</html>
